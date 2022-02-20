@@ -1,0 +1,42 @@
+/* CONTAINER */
+#container {
+  width: 95vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  outline: 8px solid #4834d4;
+}
+
+/* ITEM */
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222;
+  text-align: center;
+  box-shadow: 1px 2px 3px grey;
+  border-radius: 8px;
+  color: #222;
+  font-size: 2em;
+  font-family: arial, sans-serif;
+  background-color: #f9d423;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: #fff;
+}
+
+.tengah {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
